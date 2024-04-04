@@ -1,7 +1,6 @@
-package edu.caldas.poo.employed;
+package edu.ucaldas.poo.employee;
 import java.util.Random;
-
-public class Employed {
+public class Employee {
     private String nameEmployed;
     private double salary;
     private double salaryA;
@@ -9,11 +8,11 @@ public class Employed {
     private String department;
     private int id;
 
-    public Employed(
+    public Employee(
             String department ,
             String nameEmployed ,
             double salary
-            ){
+    ){
         this.department = department;
         this.nameEmployed = nameEmployed;
         this.salary = salary;
@@ -56,7 +55,4 @@ public class Employed {
     public int getID() {
         return id;
     }
-
-
-
 }
