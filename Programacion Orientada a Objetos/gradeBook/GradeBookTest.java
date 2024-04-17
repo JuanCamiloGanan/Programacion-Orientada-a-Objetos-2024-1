@@ -32,14 +32,13 @@ public class GradeBookTest {
             gradeCounter = gradeCounter + 1;
 
         }
-        average = total / 5 ;
+        average = total / 10 ;
 
-        System.out.println("El total de promedio de las notas es : " + average);
+        System.out.println("El promedio de las notas es: " + average);
         if(pass >= 8){
-            System.out.println("El profe merece un bono");
-        }else if(notPass >8){
-            System.out.println("No merece el bono");
+            System.out.println("El profesor merece el bono");
+        }else if(notPass <8){
+            System.out.println("El profesor No merece el bono");
         }
-
     }
 }
