@@ -49,6 +49,7 @@ public class NotasDeClase {
             }
 
             System.out.printf("El estudiante %d obtuvo la letra de calificacion %c\n", i, letraCalificacion);
+
     }
 
     double promedio = (double) totalCalificaciones / numEstudiantes;
